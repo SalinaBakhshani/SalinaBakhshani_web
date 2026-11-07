@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="Salina Bakhshani — Personal Portfolio">
+  <title>Salina Bakhshani</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+<header class="site-header">
+  <a class="brand" href="#home">S<span>.</span></a>
+
+  <button class="menu-toggle" id="menuToggle">
+    <span></span><span></span>
+  </button>
+
+  <nav class="nav" id="mainNav">
+    <a href="#about" data-en="About" data-fa="درباره من">About</a>
+    <a href="#skills" data-en="Skills" data-fa="مهارت‌ها">Skills</a>
+    <a href="#projects" data-en="Projects" data-fa="پروژه‌ها">Projects</a>
+    <a href="#interests" data-en="Interests" data-fa="علایق">Interests</a>
+    <a href="#contact" data-en="Contact" data-fa="ارتباط">Contact</a>
+    <button class="language-switch" id="languageSwitch">FA</button>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero section-shell" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">WELCOME TO MY SPACE!</p>
+
+    <h1>
+      Curiosity<br>
+      <em>drives everything.</em>
+    </h1>
+
+    <p class="hero-name">Salina Bakhshani</p>
+
+    <p class="hero-description"
+       data-en="A student exploring technology, artificial intelligence, engineering and creativity."
+       data-fa="یه دانش آموز علاقه‌مند به فناوری، هوش مصنوعی، مهندسی و خلاقیت.">
+      A student exploring technology, artificial intelligence, engineering and creativity.
+    </p>
+
+    <div class="hero-actions">
+      <a class="button button-primary" href="#projects">
+        Explore my work ↗
+      </a>
+
+      <a class="text-link" href="#about">
+        A little about me ↓
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="orbit orbit-outer"></div>
+    <div class="orbit orbit-inner"></div>
+    <div class="visual-core"><span>S</span></div>
+    <p class="visual-note">THINK · BUILD · EXPLORE</p>
+  </div>
+
+  <div class="hero-bottom">
+    <span>PERSONAL PORTFOLIO</span>
+    <span>EN / FA</span>
+  </div>
+</section>
+
+<section class="section-shell section-block" id="about">
+  <p class="eyebrow">01 / INTRODUCTION</p>
+
+  <h2>
+    A mind that likes to
+    <em>understand how things work.</em>
+  </h2>
+
+  <div class="about-grid">
+    <p class="large-copy"
+       data-en="I enjoy learning through exploring, experimenting and building. From software and AI to engines and engineering, I like understanding the systems behind things."
+       data-fa="از یادگیری از راه جست‌وجو، تجربه و ساختن لذت می‌برم. از نرم‌افزار و هوش مصنوعی تا موتور و مهندسی، شناخت سازوکار سیستم‌ها برام جالبه.">
+      I enjoy learning through exploring, experimenting and building.
+    </p>
+
+    <div class="about-facts">
+      <div><span>01</span><p>Curiosity-led learning</p></div>
+      <div><span>02</span><p>Practical problem-solving</p></div>
+      <div><span>03</span><p>Always exploring</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-shell section-block" id="skills">
+  <p class="eyebrow">02 / WHAT I WORK WITH</p>
+  <h2>Learning, <em>building, improving.</em></h2>
+
+  <div class="skill-grid">
+    <article class="skill-card">
+      <span>01</span>
+      <div>
+        <h3>Python</h3>
+        <p>Intermediate · Programming</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <span>02</span>
+      <div>
+        <h3>HTML & CSS</h3>
+        <p>Beginner · Web Development</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <span>03</span>
+      <div>
+        <h3>Generative AI</h3>
+        <p>AI-assisted project building</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <span>04</span>
+      <div>
+        <h3>Research</h3>
+        <p>Technology & Automotive</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section-shell section-block" id="projects">
+  <p class="eyebrow">03 / SELECTED WORK</p>
+  <h2>Ideas becoming <em>real projects.</em></h2>
+
+  <article class="project-card">
+    <div class="project-topline">
+      <span>01 / PERSONAL PROJECT</span>
+      <span>AI · AUTOMOTIVE</span>
+    </div>
+
+    <div class="project-content">
+      <div>
+        <p class="project-label">FEATURED PROJECT</p>
+        <h3>ATRA<span>.</span></h3>
+      </div>
+
+      <div>
+        <p data-en="An automotive AI assistant designed to bring car knowledge, vehicle information and practical tools into one experience."
+           data-fa="یک دستیار هوش مصنوعی مخصوص خودرو برای دسترسی به دانش خودرو، اطلاعات وسایل نقلیه و ابزارهای کاربردی.">
+          A Persian-language automotive AI assistant.
+        </p>
+        <span class="status-label">● In development</span>
+      </div>
+    </div>
+
+    <div class="project-bottom">
+      <span>CONCEPT · DESIGN · DEVELOPMENT</span>
+      <span>↗</span>
+    </div>
+  </article>
+</section>
+
+<section class="section-shell section-block" id="interests">
+  <p class="eyebrow">04 / BEYOND THE SCREEN</p>
+  <h2>Things that keep me <em>curious.</em></h2>
+
+  <div class="interest-list">
+    <div>
+      <span>01</span>
+      <h3>Automotive & Engines</h3>
+      <p>Mechanical systems, performance and design.</p>
+    </div>
+
+    <div>
+      <span>02</span>
+      <h3>Artificial Intelligence</h3>
+      <p>Intelligent systems and creative applications.</p>
+    </div>
+
+    <div>
+      <span>03</span>
+      <h3>Math & Physics</h3>
+      <p>The principles behind the world around us.</p>
+    </div>
+
+    <div>
+      <span>04</span>
+      <h3>Music & Writing</h3>
+      <p>Creative expression and storytelling.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <div class="section-shell contact-inner">
+    <p class="eyebrow">05 / GET IN TOUCH</p>
+
+    <h2>
+      Have an idea?<br>
+      <em>Let's connect.</em>
+    </h2>
+
+    <p>For collaborations, conversations or interesting opportunities.</p>
+
+    <div class="contact-links">
+      <a href="#" class="contact-link">LinkedIn ↗</a>
+      <a href="#" class="contact-link">Email ↗</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer section-shell">
+  <a class="brand" href="#home">S<span>.</span></a>
+  <p>© <span id="year"></span> SALINA BAKHSHANI</p>
+  <a href="#home">BACK TO TOP ↑</a>
+</footer>
+
+</body>
+</html>
